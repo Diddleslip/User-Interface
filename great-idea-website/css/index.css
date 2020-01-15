@@ -50,8 +50,8 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	outline: 1px solid red;
-  	outline-offset: -1px;
+	/* outline: 1px solid red;
+  	outline-offset: -1px; */
 }
 
 html, body {
@@ -71,38 +71,50 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 80%;
 	margin: 0 auto;
-	padding: 60px;
+	padding: 5%;
 }
 
 nav, a{
-	word-spacing: 150px;
-	color: gray; 
-	
+	color: gray;
+	margin: 0 5%; 	
 }
 
 .logo {
 	margin-left: 90%;
-	margin-bottom: 50px;
-	margin-top: -30px;
+	margin-top: -2%;
 	display: inline-block;
 }
 
 .getstartedButton {
-	font-size: 25px;
-	margin: auto;
+	font-size: 250%;
+	margin: 0;
+	margin-left: 25%;
+	border: 1px solid black;
+	width: 25%;
+	margin-bottom: 30%;
+	text-align: center; 
+	padding: .7%;
 }
 
 h1 {
-	font-size: 100px;
-	position: center;
+	font-size: 800%;
 	text-align: center;
 	display: inline-block;
-	padding-left: 10%; 
-	padding-top: 0%;
+	margin-left: 18%; 
+	margin-top: 12.5%;
+	height: 10%;
 }
 
 .circlepic {
-	margin-top: -15%;
-	margin-left: 53.8%; 
+	margin-top: -50%;
+	margin-left: 40.5%; 
 	position: absolute;
+	height: 60%;
+}
+
+hr {
+	display: block;
+    height: 1px;
+	border-top: 1px solid black;
+	margin-top: -20%;
 }
