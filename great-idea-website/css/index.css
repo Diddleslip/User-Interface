@@ -50,8 +50,8 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	outline: 1px solid red;
-  	outline-offset: -1px;
+	/* outline: 1px solid red;
+  	outline-offset: -1px; */
 }
 
 html, body {
@@ -74,14 +74,16 @@ h1, h2, h3, h4, h5 {
 	padding: 5%;
 }
 
-nav, a{
+nav div{
 	color: gray;
-	margin: 0 5%; 	
+	margin: 0% 5%;
+	width: auto%;
+	display: inline-block; 	
 }
 
-.container nav a:hover {
-	color: cyan;
-	background: black;
+.container div nav div:hover {
+	color: black;
+	background: cyan;
 	transition-duration: 0.3s;
 	transition-property: transform;
 	transform: scale(1.1);
@@ -97,7 +99,7 @@ nav, a{
 	font-size: 250%;
 	margin: 0;
 	margin-left: 23%;
-	border: 1px solid black;
+	border: 1px solid gray;
 	width: 20%;
 	margin-bottom: 30%;
 	text-align: center; 
